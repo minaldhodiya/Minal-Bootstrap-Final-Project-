@@ -1,0 +1,257 @@
+.zoom-kenburns {
+    transform: scale(1);
+    transition: transform 6s ease-in-out;
+    /* slow zoom */
+}
+
+.carousel-item.active .zoom-kenburns {
+    transform: scale(1.2);
+    /* zoom in */
+}
+
+.position-ind {
+    position: absolute;
+    padding-bottom: 60px;
+}
+
+.ind-btn {
+    height: 10px !important;
+    width: 10px !important;
+}
+
+.bg-image {
+    background: url('../images/ima3.jpg') !important;
+}
+
+.bg-image-tow {
+    background: url('../images/img4.jpg') !important;
+}
+
+.hr-line {
+    width: 25px;
+    height: 2px;
+    opacity: 1;
+}
+
+.hr-line-tow {
+    width: 100px;
+    height: 3px;
+    opacity: 1;
+}
+
+.feature-icon {
+    font-size: 40px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    padding: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.team .btn{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(212, 212, 212);
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+}
+
+.team .btn i{
+    margin-right: 10px;
+}
+
+.team .btn:hover i{
+    animation: icon 0.5s ease-in-out;
+}
+
+@keyframes icon{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+
+.team .btn:hover{
+    width: 120px;
+}
+
+
+.progressbar{
+    height: 10px;
+}
+     .accordion-button::after{
+      content: "\002B";                /* plus sign (+) when closed */
+      font-size: 1.2rem;
+      font-weight: 700;
+      width: 1.6rem;
+      height: 1.6rem;
+      display: inline-block;
+      text-align: center;
+      line-height: 1.6rem;
+      background-image: none !important;  /* remove default SVG */
+      transform: none !important;         /* stop any rotation */
+      -webkit-transform: none !important;
+    }
+
+    /* when accordion is open, show minus (use unicode minus to avoid dash/en-dash confusion) */
+    .accordion-button:not(.collapsed)::after{
+      content: "\2212"; /* unicode minus (looks correct and consistent) */
+    }
+
+    /* little extra spacing so icon doesn't overlap text */
+    .accordion-button { padding-right: 2.2rem; }
+    
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* gap: 8px; */
+}
+    
+
+
+.div3 {
+    grid-row: span 2 / span 2;
+}
+
+.div4 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+img{
+    width: 100%;
+}        
+.hero-fs{
+    font-size: 200px;
+}
+.positions{
+    position: absolute;
+    top: 10;
+}
+.same-size {
+  width: 180px;   /* બન્નેની width same */
+}
+#message {
+  width: 380px;   /* પહોળાઈ */
+}
+
+.contectus{
+    background: url("../images/background-4.png");
+    background-size: cover;
+}
+
+.btn-fs{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.lists ul li .icon-box:hover{
+     background-color: #fd7e14;
+   
+}
+.lists ul li .icon-box-1:hover{
+     background-color:#007bff;
+   
+}
+.lists ul li .icon-box-2:hover{
+     background-color:#00d0ff;
+   
+}
+.lists ul li .icon-box-3:hover{
+     background-color:#00d0ff;
+   
+}
+.lists ul li .icon-box-4:hover{
+     background-color:#ff1212;
+   
+}
+.lists ul li .icon-box-5:hover{
+     background-color:#dc3545;
+   
+}
+.lists ul li .icon-box-6:hover{
+     background-color:#dc3545;
+   
+}
+.lists ul li .icon-box-7:hover{
+     background-color:#dba905;
+   
+}
+.lists ul li .icon-box-8:hover{
+     background-color:#ee05ac;
+   
+}
+.lists ul li .icon-box-9:hover{
+     background-color:#00d0ff;
+   
+}
+.lists ul li .icon-box-10:hover{
+     background-color:#007bff;
+   
+}
+.lists ul li .icon-box-11:hover{
+     background-color:#007bff;
+   
+}
+.lists ul li .icon-box-12:hover{
+     background-color:#ee05ac;
+   
+}
+
+.lists ul li a:hover .fa-rss , 
+a:hover .fa-faceb,
+a:hover .fa-twitter-1,
+a:hover .fa-vimeo-v,
+a:hover .fa-youtube,
+a:hover .fa-instagram-1,
+a:hover .fa-pinterest-p,
+a:hover .fa-google-plus-g,
+a:hover .fa-dribbble,
+a:hover .fa-skype,
+a:hover .fa-linkedin,
+a:hover .fa-behance,
+a:hover .fa-flickr
+{
+    color:#fff;
+    animation: socialicon 0.08s linear;
+}
+
+
+@keyframes socialicon{
+    0%{
+        transform: translateY(100%);
+    }
+
+    100%{
+        transform: translateY(0%);
+    }
+}
